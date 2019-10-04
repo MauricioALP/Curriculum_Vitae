@@ -187,15 +187,42 @@ body{
 
 
 
-
-
-
-
 .card2{
     margin: 0 auto 20px auto;
     background-color: white;
     width: 700px;
     height: 150px;
+    border:solid;
+    border-width: 3px 2px;
+    border-top: 3px;
+    border-color: rgb(201, 201, 201);
+}
+
+
+.description{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    height: 80px;
+    padding: 20px 20px 0 20px;
+}
+
+
+.btn1{
+    font-family: 'Patua One', cursive;
+    font-size: 15px;
+    margin-left: 310px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    background-color: #0097a7;
+    text-decoration: none;
+    transition: 0.8s;
+}
+
+.btn1:hover{
+    background-color: #2c8a94;
+    border-radius: 7px;
+    color:black;
 }
 
 .card3{
